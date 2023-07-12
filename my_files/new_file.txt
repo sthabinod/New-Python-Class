@@ -1,0 +1,12 @@
+Customer name: Binod 
+Binod Shrestha bill is 2039203
+Purchase date and time : 2023/12/12 Sunday 12:30AM
+
+Customer name: Gaurav Shrestha
+Gaurav Shrestha bill is 2039203
+Purchase date and time : 2023/12/12 Sunday 12:30AM
+
+Customer name: Bibid Shrestha
+Bibid Shrestha bill is 2039203
+Purchase date and time : 2023/12/12 Sunday 12:30AM
+

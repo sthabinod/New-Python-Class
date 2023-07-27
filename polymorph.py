@@ -1,14 +1,11 @@
 
 class Animal:
     hello = "welcome"
-    def sound(self,my_sound):
-        print("My sound....", my_sound)
     
-    # over load
-    def sound(self,hello):
-        print(hello)   
-    
-    
+    def sound(self,*args):
+        for sound in args:
+            print(sound)
+        
     def welcome(self,hello):
         print(hello)
 
@@ -22,7 +19,8 @@ class Cow(Animal):
     
     
 object = Animal()
-object.sound("chirp")
+object.sound("chirip")
+object.sound("Roar","Meow")
 
 cow_object = Cow()
 cow_object.welcome("Hello")

@@ -1,15 +1,18 @@
 class Mammal:
     
     def __init__(self,legs,eyes,name):
-        self.legs = legs
+        self.legs = legs #instance variable
         self.eyes = eyes
         self.name = name
+        
+        
     
     def greeting(self):
         print("Hello, welcome mammals!")
 
+
 class HumanBeing(Mammal):
-    welcome  = 'Hello '
+    welcome  = 'Hello '  #class variable
     
     def __init__(self,brain_power,eyes,legs,name):
         self.brain_power = brain_power
